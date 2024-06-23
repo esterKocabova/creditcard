@@ -1,0 +1,67 @@
+.payment-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 370px;
+    margin: auto;
+  }
+  .card {
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    color: white;
+    text-shadow: 0px 2px 2px #584200;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card-number {
+    font-size: 1.2em;
+  }
+  .card-name,
+  .card-expiration {
+    font-size: 1em;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  .input-group {
+    display: flex;
+    gap: 10px;
+  }
+  label {
+    margin-bottom: 8px;
+  }
+  input {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgb(231, 231, 231);
+    margin-bottom: 8px;
+    border: none
+  }
+  input:active, input:focus {
+    box-shadow: 0px 0px 9px white;
+    border: 1px solid #ccc;
+  }
+  button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
